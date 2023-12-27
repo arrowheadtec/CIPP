@@ -85,13 +85,8 @@
     {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
-    }
-  ],
-  "navigationFallback": {
-    "rewrite": "index.html",
-    "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
-  },
-  "networking": {
+    },
+    "networking": {
   "allowedIpRanges": ["AzureFrontDoor.Backend"]
   }, 
   "forwardingGateway": {
@@ -112,6 +107,11 @@
             }
         }
     ]
+  }
+  ],
+  "navigationFallback": {
+    "rewrite": "index.html",
+    "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
   },
   "responseOverrides": {
     "401": {
