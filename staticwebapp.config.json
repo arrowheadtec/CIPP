@@ -91,6 +91,9 @@
     "rewrite": "index.html",
     "exclude": ["/static/*.{png,jpg,gif}", "/css/*"]
   },
+  "networking": {
+  "allowedIpRanges": ["AzureFrontDoor.Backend"]
+  }
   "responseOverrides": {
     "401": {
       "rewrite": "/401"
