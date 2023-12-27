@@ -103,7 +103,6 @@
   ]
   }
   {
-    ...
     "routes": [
         {
             "route": "/members",
@@ -113,7 +112,6 @@
             }
         }
     ]
-    ...
   }
   "responseOverrides": {
     "401": {
