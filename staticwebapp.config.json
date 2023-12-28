@@ -88,18 +88,14 @@
     },
     {
     "networking": {
-  "allowedIpRanges": ["AzureFrontDoor.Backend"]
-  }, 
-    {
-  "networking": {
-    "allowedIpRanges": [
-      "10.0.0.0/24",
+  "allowedIpRanges": ["AzureFrontDoor.Backend",
+        "10.0.0.0/24",
       "100.0.0.0/32",
       "192.168.100.0/22",
       "10.0.3.0/24",
-      "75.7.110.115/32"
-    ]
-  }},
+      "75.7.110.115/32"]
+                  }
+    },
     {
   "responseOverrides": {
     "401": {
