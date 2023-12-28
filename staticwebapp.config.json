@@ -99,7 +99,7 @@
       "10.0.3.0/24",
       "75.7.110.115/32"
     ]
-  },
+  }},
   "forwardingGateway": {
   "requiredHeaders": {
     "X-Azure-FDID" : "e39740bc-b9f0-4119-ae30-125b2be704e1"
