@@ -85,8 +85,8 @@
     {
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
-    },
-    {
+    }
+  ],
     "networking": {
   "allowedIpRanges": ["AzureFrontDoor.Backend",
         "10.0.0.0/24",
@@ -94,9 +94,7 @@
       "192.168.100.0/22",
       "10.0.3.0/24",
       "75.7.110.115/32"]
-                  }
     },
-    {
   "responseOverrides": {
     "401": {
       "rewrite": "/401"
