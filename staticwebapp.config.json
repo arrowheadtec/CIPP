@@ -86,6 +86,7 @@
       "route": "*",
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
     },
+    {
     "networking": {
   "allowedIpRanges": ["AzureFrontDoor.Backend"]
   }, 
