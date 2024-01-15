@@ -87,18 +87,7 @@
       "allowedRoles": ["admin", "editor", "readonly", "reader"]
     }
   ],
-    "networking": {
-  "allowedIpRanges": ["AzureFrontDoor.Backend",
-        "10.0.0.0/24",
-      "100.0.0.0/32",
-      "192.168.100.0/22",
-      "10.0.3.0/24",
-      "75.7.110.115/32",
-      "137.117.69.207/32",
-      "20.81.216.5/32"
-  ]
-    },
-  "responseOverrides": {
+    "responseOverrides": {
     "401": {
       "rewrite": "/401"
     },
